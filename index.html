@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Food App</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a href="/"><img src="/assets/logo.png" alt="logo" class="logo" /></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Promo</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <a href="/"
+            ><img src="/assets/search-icon.png" alt="" class="search"
+          /></a>
+
+          <button class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+      <img
+        src="/assets/headerimage.png"
+        alt="header image"
+        class="header-image"
+      />
+      <div
+        class="header-right d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="w-75 h-75 d-flex flex-column justify-content-center gap-4 align-items-start"
+        >
+          <h1 class="header-right--title">Title Here</h1>
+          <p class="header-right--description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+            obcaecati enim a sequi nesciunt sit necessitatibus et porro sapiente
+            aperiam?
+          </p>
+          <a href="" class="btn-primary">order now</a>
+        </div>
+
+        <!-- absolute images -->
+        <img
+          src="/assets/onion.png"
+          alt="onion"
+          class="absolute-image absolute-image-1"
+        />
+        <img
+          src="/assets/orange.png"
+          alt="orange"
+          class="absolute-image absolute-image-2"
+        />
+        <img
+          src="/assets/capsicum.png"
+          alt="capsicum"
+          class="absolute-image absolute-image-3"
+        />
+        <img
+          src="/assets/leaves.png"
+          alt="leaves"
+          class="absolute-image absolute-image-4"
+        />
+        <img
+          src="/assets/s-circle.png"
+          alt="small circle"
+          class="absolute-image absolute-image-5"
+        />
+        <img
+          src="/assets/s-onion.png"
+          alt="small onion"
+          class="absolute-image absolute-image-6"
+        />
+        <img
+          src="/assets/s-circle.png"
+          alt="small circle"
+          class="absolute-image absolute-image-7"
+        />
+        <img
+          src="/assets/s-circle.png"
+          alt="small circle"
+          class="absolute-image absolute-image-8"
+        />
+        <img
+          src="/assets/s-circle.png"
+          alt="small circle"
+          class="absolute-image absolute-image-9"
+        />
+      </div>
+    </header>
+
+    <section class="best-seller">
+      <div class="container">
+        <h2 class="title-secondary mt-7 text-center">Best Seller</h2>
+        <p
+          class="best-seller--description mt-5 w-75 ms-auto me-auto text-center"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+          dolorum harum a reprehenderit illum assumenda ea explicabo ducimus
+          facere eius?
+        </p>
+        <div class="featured-products row mt-6">
+          <div class="featured-product col d-inline-block text-center">
+            <div class="img-container">
+              <a href="#">
+                <img src="/assets/f-dish-1.png" alt="featured product"
+              /></a>
+            </div>
+            <h4 class="mt-2">Title here</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium, ullam!
+            </p>
+          </div>
+          <div class="featured-product col d-inline-block text-center">
+            <div class="img-container">
+              <a href="#">
+                <img src="/assets/f-dish-2.png" alt="featured product" />
+              </a>
+            </div>
+            <h4 class="mt-2">Title here</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium, ullam!
+            </p>
+          </div>
+          <div class="featured-product col d-inline-block text-center">
+            <div class="img-container">
+              <a href="#">
+                <img src="/assets/f-dish-3.png" alt="featured product" />
+              </a>
+            </div>
+            <h4 class="mt-2">Title here</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium, ullam!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- statistics section -->
+    <section class="statistics">
+      <div class="container">
+        <!-- top section -->
+        <div
+          class="statistics__top d-flex justify-content-between align-items-center"
+        >
+          <div class="statistics__top--image-container">
+            <img
+              src="/assets/oriental-image.png"
+              alt=""
+              class="statistics__top--image"
+            />
+          </div>
+          <div
+            class="w-small w-50 h-75 d-flex flex-column justify-content-center gap-4 align-items-start"
+          >
+            <h1 class="header-right--title statistics-title">Oriental Tase</h1>
+            <p class="header-right--description statistics--description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              obcaecati enim a sequi nesciunt sit necessitatibus et porro
+              sapiente aperiam?
+            </p>
+            <a href="#" class="btn-primary btn-statistics">order now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statistics-middle">
+      <!-- middle section -->
+      <div class="statistics__content">
+        <h2 class="title-secondary statistics__content--title pt-5 text-center">
+          Statistics
+        </h2>
+        <p
+          class="best-seller--description statistics__content--description mt-5 w-50 ms-auto me-auto text-center"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+          dolorum harum a reprehenderit illum assumenda ea explicabo ducimus
+          facere eius?
+        </p>
+      </div>
+      <div class="container">
+        <div
+          class="d-flex align-items-center justify-content-evenly flex-wrap mt-6"
+        >
+          <div class="number-counter">
+            <h4 data-target="123">0</h4>
+            <p>outlets</p>
+          </div>
+          <div class="number-counter">
+            <h4 data-target="100">0</h4>
+            <p>chef</p>
+          </div>
+          <div class="number-counter">
+            <h4 data-target="300">0</h4>
+            <p>menu</p>
+          </div>
+          <div class="number-counter">
+            <h4 data-target="30">0</h4>
+            <p>country</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- absolute images -->
+      <img
+        src="/assets/onion.png"
+        alt="onion"
+        class="absolute-image absolute-image-stat-1"
+      />
+      <img
+        src="/assets/capsicum.png"
+        alt="orange"
+        class="absolute-image absolute-image-stat-2"
+      />
+      <img
+        src="/assets/capsicum.png"
+        alt="capsicum"
+        class="absolute-image absolute-image-stat-3"
+      />
+      <img
+        src="/assets/leaves.png"
+        alt="leaves"
+        class="absolute-image absolute-image-stat-4"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-5"
+      />
+      <img
+        src="/assets/s-onion.png"
+        alt="small onion"
+        class="absolute-image absolute-image-stat-6"
+      />
+      <img
+        src="/assets/orange.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-7"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-8"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-9"
+      />
+    </section>
+    <!-- bottom section -->
+    <section class="statistics-bottom">
+      <div class="container">
+        <!-- top section -->
+        <div
+          class="statistics__bottom d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="w-small w-50 h-75 mb-4 d-flex flex-column justify-content-center gap-4 align-items-start"
+          >
+            <h1 class="header-right--title statistics-title">Chicken Grill</h1>
+            <p class="header-right--description statistics--description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              obcaecati enim a sequi nesciunt sit necessitatibus et porro
+              sapiente aperiam?
+            </p>
+            <a href="#" class="btn-primary btn-statistics">order now</a>
+          </div>
+
+          <div class="statistics__bottom--image-container">
+            <img
+              src="/assets/oriental-image-2.png"
+              alt=""
+              class="statistics__bottom--image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fields section -->
+
+    <section class="fields vh-100">
+      <div
+        class="h-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <p class="fields-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
+          molestias fuga tenetur nobis cupiditate, atque minima fugit beatae,
+        </p>
+        <h4 class="fields-title mt-3">Lenora Fields</h4>
+      </div>
+    </section>
+
+    <section class="news-letter vh-100">
+      <form
+        action=""
+        class="container h-100 d-flex flex-column justify-content-center"
+      >
+        <div>
+          <h2
+            class="title-secondary news-letter__content--title pt-5 text-center"
+          >
+            Subscribe
+          </h2>
+          <p class="text-center news-letter-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <div class="subscribe-box mt-5">
+            <input
+              class="news-letter-input"
+              type="email"
+              placeholder="Your Email"
+            />
+            <button class="news-letter-button">Subscribe</button>
+          </div>
+        </div>
+      </form>
+      <!-- absolute images -->
+      <img
+        src="/assets/onion.png"
+        alt="onion"
+        class="absolute-image absolute-image-stat-1"
+      />
+      <img
+        src="/assets/capsicum.png"
+        alt="orange"
+        class="absolute-image absolute-image-stat-2"
+      />
+      <img
+        src="/assets/capsicum.png"
+        alt="capsicum"
+        class="absolute-image absolute-image-stat-3"
+      />
+      <img
+        src="/assets/leaves.png"
+        alt="leaves"
+        class="absolute-image absolute-image-stat-4"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-5"
+      />
+      <img
+        src="/assets/s-onion.png"
+        alt="small onion"
+        class="absolute-image absolute-image-stat-6"
+      />
+      <img
+        src="/assets/orange.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-7"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-8"
+      />
+      <img
+        src="/assets/s-circle.png"
+        alt="small circle"
+        class="absolute-image absolute-image-stat-9"
+      />
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div
+        class="container footer-container d-flex justify-content-between flex-wrap align-items-start"
+      >
+        <div>
+          <h4>Title here</h4>
+          <p class="footer-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+            dignissim nunc, id maximus ex. Etiam nec dignissim elit, at
+            dignissim enim.
+          </p>
+
+          <div class="d-flex align-items-center gap-3">
+            <a href="#" class="social-links"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social-links"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-links"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="social-links"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <h4>About</h4>
+          <a class="footer__links" href="#">History</a>
+          <a class="footer__links" href="#">Our Team</a>
+          <a class="footer__links" href="#">Brand Guidelines</a>
+          <a class="footer__links" href="#">Terms & conditions</a>
+          <a class="footer__links" href="#">Privacy Policy</a>
+        </div>
+        <div class="d-flex flex-column">
+          <h4>Services</h4>
+          <a class="footer__links" href="#">How to order</a>
+          <a class="footer__links" href="#">Our Product</a>
+          <a class="footer__links" href="#">Order Status</a>
+          <a class="footer__links" href="#">Promo</a>
+          <a class="footer__links" href="#">Payment Method</a>
+        </div>
+        <div class="d-flex flex-column">
+          <h4>Other</h4>
+          <a class="footer__links" href="#">contact usr</a>
+          <a class="footer__links" href="#">help</a>
+          <a class="footer__links" href="#">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">Promo</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+
+      <i class="fa-solid fa-xmark close-ham"></i>
+    </div>
+
+    <div style="display: none" class="overlay"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <script src="./mouseover.js"></script>
+    <script src="./number-counter.js"></script>
+  </body>
+</html>
