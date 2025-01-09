@@ -345,6 +345,8 @@ a {
 }
 .title-secondary.news-letter__content--title {
   font-size: 10rem;
+  position: relative;
+  z-index: 22;
 }
 .title-secondary.statistics__content--title {
   color: var(--color-secondary);
@@ -615,6 +617,12 @@ a {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .fields-description {
+    font-size: 3.4rem;
+  }
+}
+
 .fields-title {
   font-size: 7.4rem;
 }
@@ -654,6 +662,7 @@ a {
   border: none;
   font-size: 1.6rem;
   padding-left: 0.9rem;
+  z-index: 22;
 }
 @media (max-width: 640px) {
   .news-letter-input {
