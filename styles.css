@@ -815,6 +815,7 @@ a {
 .footer__links {
   position: relative;
   overflow: hidden;
+  width: fit-content;
 }
 
 .footer__links::before {
