@@ -687,7 +687,8 @@ a {
 }
 
 .footer-description {
-  max-width: 40rem;
+  max-width: 39rem;
+  hyphens: auto;
 }
 
 .social-links {
@@ -823,4 +824,11 @@ a {
   .w-small {
     width: 100% !important;
   }
+}
+
+.footer__firstset {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
