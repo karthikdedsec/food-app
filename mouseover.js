@@ -1,5 +1,4 @@
 const images = document.querySelectorAll(".absolute-image");
-console.log(images);
 
 images.forEach((image) => {
   image.addEventListener("mousemove", (event) => {
