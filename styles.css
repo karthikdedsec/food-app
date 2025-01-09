@@ -47,10 +47,18 @@ a {
   margin-top: 10rem;
 }
 
+.-mt-5 {
+  margin-top: -15rem;
+}
+
+.mb-7 {
+  margin-bottom: 4.5rem;
+}
+
 /* header section */
 
 .logo {
-  width: 10.1rem;
+  width: 17.1rem;
   height: auto;
 }
 
@@ -107,7 +115,7 @@ a {
   color: white;
 }
 
-@media (max-width: 699px) {
+@media (max-width: 768px) {
   .header .header__nav ul {
     display: none;
   }
@@ -184,13 +192,16 @@ a {
 
 .header-right--description.statistics--description {
   color: #fff;
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 2.9rem;
 }
 
 .btn-primary {
   font-family: "Montserrat", serif;
   font-size: 1.6rem;
   background-color: var(--color-secondary);
-  padding: 0.7rem 6rem;
+  padding: 1rem 6rem;
   outline: none;
   text-decoration: none;
   color: var(--color-primary);
@@ -315,10 +326,6 @@ a {
 
 /* best seller section */
 
-.best-seller {
-  min-height: 100vh;
-}
-
 .title-secondary {
   font-size: 8rem;
 }
@@ -351,6 +358,13 @@ a {
   }
 }
 
+@media (max-width: 640px) {
+  .container {
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+  }
+}
+
 .img-container {
   max-width: 20rem;
   max-height: 20rem;
@@ -371,6 +385,7 @@ a {
   background-image: url(/assets/statistics-paint-1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transform: translateY(10px);
 }
 
 .statistics__top {
@@ -593,9 +608,19 @@ a {
   justify-content: center;
 }
 
+.subsribe-input {
+  box-shadow: 2rem 2rem 7rem rgba(0, 0, 0, 0.2);
+}
+
 .news-letter {
   position: relative;
   background-color: #f4f4f4;
+  height: 100vh;
+}
+@media (max-width: 640px) {
+  .news-letter {
+    height: 70vh;
+  }
 }
 
 .news-letter-description {
@@ -611,6 +636,11 @@ a {
   border: none;
   font-size: 1.6rem;
   padding-left: 0.9rem;
+}
+@media (max-width: 640px) {
+  .news-letter-input {
+    width: 30rem;
+  }
 }
 .news-letter-input:focus {
   outline: none;
