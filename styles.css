@@ -750,6 +750,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s;
+}
+.social-links:hover {
+  transform: translateY(-5px);
+  background-color: #c3c3c3;
 }
 .social-links i {
   color: #303030;
