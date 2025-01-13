@@ -361,10 +361,22 @@ a {
   color: #ffff;
   font-weight: 300;
   max-width: 84rem;
+  font-size: 2.4rem;
+}
+
+@media (max-width: 1000px) {
+  .best-seller--description.statistics__content--description {
+    font-size: 2.9rem;
+  }
 }
 
 .featured-product h4 {
   font-size: 4rem;
+}
+.featured-product h4 a {
+  text-decoration: none;
+  color: #212529;
+  font-family: "Grand Hotel", sans-serif;
 }
 
 .featured-product p {
@@ -610,6 +622,12 @@ a {
 
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .fields {
+    height: 56rem !important;
+  }
 }
 
 .fields-description {
